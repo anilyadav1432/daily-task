@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        // function that count character occurrences in string
+        function count_occur( str )
+        {
+            // checking string is valid or not
+            if( str.length == 0 )
+            {
+                alert("Invalid string");
+                return;
+            }
+            //cor loop to iterate over string
+            for( let i = 0 ;i < str.length ;i++)
+            {
+                //variable counting occurrence
+                let count = 0;
+                for( let j = 0 ;j < str.length ;j++)
+                {
+                    if( str[i] == str[j] && i > j )
+                    {
+                     break;
+                    }
+                    if( str[i] == str[j] )
+                    { 
+                        if(str[i]!=" ")
+                        {
+                            count++;
+                        }
+                        
+                    }
+                }
+                if( count > 0)
+                    document.write(`${str[i]} occurs ${count} times<br/>`);
+                
+            }
+        
+        }
+        
+        // test string
+        let test_str = "anilii aa";
+        count_occur( test_str);
+    </script>
+</body>
+</html>
+
+    

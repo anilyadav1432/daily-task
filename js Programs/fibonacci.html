@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Series</title>
+</head>
+<body>
+    
+    <script>
+        var n1=0;
+        var n2=1;
+        n=6;
+        i=1;
+        document.write(n1+"<br/>"+n2+'<br/>'); 
+       
+        
+        while(n-2>=i)
+        {
+            var n3=parseInt(n1)+parseInt(n2);
+            n1=n2;
+            n2=n3;
+            
+            document.write(n3+'<br/>');
+            i++;
+        }
+    </script>
+</body>
+</html>

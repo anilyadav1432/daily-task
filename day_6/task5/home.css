@@ -1,0 +1,293 @@
+.outer
+        {
+            
+            height:100%;
+            width:100%;
+            
+        }
+        .menu
+        {
+            height: 50px;
+            width: 100%;
+            background-color: lightgray;
+        }
+        .menu ul
+        {   
+            padding-top: 6px;
+            list-style-type: none;
+        }
+        .menu ul li
+        {
+            display: inline;
+            margin-left: 50px;
+            
+            padding-bottom: 15px;
+        }
+        .menu ul li a
+        {
+            color:black;
+           text-decoration: none;
+        }
+        .menu ul li .logo
+        {
+            font-size: xx-large;
+            color:#9f23dd;
+        }
+        .slider
+        {
+            /* border:1px solid black; */
+            height:400px;
+            width:100%;
+            background-color: bisque;
+        }
+        .sliderleft
+        {
+            height:100%;
+            width:40%;
+            
+            float:left;
+        }
+        .sliderright
+        {
+            height:100%;
+            width:60%;
+           
+            float:right;
+        }
+        .sliderleft ul
+        {
+            list-style-type: none;
+            margin:30% auto;
+            font-size: 30px;
+            color:white;
+           
+        }
+        .sliderleft ul li
+        {
+            display:inline;
+            margin-left: 20px;  
+            padding: 10px;
+            border-radius:7px;
+            padding-bottom: 15px;
+        }
+        .sliderleft ul li a
+        {
+            text-decoration:none;
+            color:white;
+        }
+        .sliderleft ul li a:hover
+        {
+            text-decoration:none;
+            color:black;
+        }
+        .lifirst
+        {
+            background-color: black;
+            color:white;
+        }
+        .lifirst:hover
+        {
+            background-color: lightgray;
+            color:black;
+        }
+        .lisecond
+        {
+            background-color: #9f23dd;
+        }
+        .lisecond:hover
+        {
+            background-color: lightgray;
+            color:black;
+        }
+
+
+        .aboutbox
+        {
+            
+            height:400px;
+            width:100%;
+        }
+        .abouthead
+        {
+            height: 100px;
+            color:#9f23dd;
+            font-size:30px;
+            text-align: center;
+        }
+        .aboutbox1
+        {
+           
+            height:400px;
+            width:35%;
+            float:left;
+        }
+        .aboutbox2
+        {
+            background-color: rgb(224, 221, 221);
+            height:400px;
+            width: 65%;
+            float:left;
+        }
+        .hrclass
+        {
+            width:200px;
+            height:2px;
+            background-color: black;
+            box-shadow: 0px 5px 10px #9f23dd;
+        }
+        
+        table tr th
+        {
+            text-align: left;
+        }
+        /* Project part css here */
+        .myproject
+        {
+            text-align: center;
+            height  : 400px;
+            width   : 100%;
+        }
+        .project1
+        {
+            height  : 400px;
+            text-align: center;
+            width   : 25%;
+            float:left;
+            
+        }
+        
+        .project2
+        {
+            height  : 400px;
+            width   : 25%;
+            float:left;
+            
+        }
+        .project3
+        {
+            height  : 400px;
+            width   : 25%;
+            float:left;
+            
+        }
+        .project4
+        {
+            height  : 400px;
+            width   : 25%;
+            float   :left;
+            
+        }
+        .proimg
+        {
+            width: 300px;
+            text-align: center;
+         
+        }
+        .proimg:hover
+        {
+            width: 300px;
+            opacity: 0.5;
+        }
+        #pimg1{
+            height:70px;
+            text-align: center;
+            color: black;
+            
+            font-size: 25px;
+        }
+        
+        /*Skill Css start Here  */
+        .skillbody
+        {
+            height:600px;
+            width:100%;
+            /* background-color: lightskyblue; */
+        }
+        .skillbody1
+        {
+            height:300px;
+            width:24%;
+            margin-left: 1%;
+            margin-top: 1%;
+            text-align: center;
+            box-shadow:5px 5px 6px lightgrey;
+            /* background-color: rgb(219, 202, 46); */
+            float:left;
+        }
+        .parameterskill
+        {
+            width:80%;
+            margin:0px auto;
+            padding:0px auto;
+            height:100px;
+            box-shadow:5px 5px 6px lightgrey;
+            background-color: white;
+        }
+        .parameterskillchild
+        {
+            width:60%;
+            height:100px;
+            
+            background-color: rgb(67, 160, 67);
+            float:left;
+        }
+        .percent
+        {
+            margin-top:13%;
+            padding:0px auto;
+            width:30%;
+            float:left;
+
+        }
+
+
+
+    /* Contact css start here */
+        .contactbody
+        {
+            height: 500px;
+            width:100%;
+            
+        }
+        .contactleft
+        {
+           
+            height: 500px;
+            width:50%;
+            background-color: lightgray;
+            float:left;
+        }
+        .contactright
+        {
+            height: 500px;
+            width:50%;
+            float:right;
+            
+        }
+        .formbody tr td input
+        {
+            height:35px;
+            width:100%;
+            border-radius: 10px;
+        }
+        .conbtn
+        {
+            margin-left: 45px;
+            height:40px;
+            width:120px;
+            font-size:18px;
+            background-color: #9f23dd;
+            color:white;
+            border-radius:7px;
+
+        }
+        .conbtn:hover
+        {
+            margin-left: 45px;
+            height:40px;
+            width:120px;
+            background-color: black;
+            color:white;
+            border-radius:7px;
+
+        }

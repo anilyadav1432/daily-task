@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>second lowest Number</title>
+</head>
+<body>
+    
+
+    <script>
+        var array =[87,15,69,17,122,50,99];
+        var min1 = array[0];
+        var min2 = array[0];
+        for (var i=0; i<array.length; i++)
+        {
+            if (array[i] < min1){
+                min2 = min1;
+                min1 = array[i];
+            } else if (array[i] < min2 && array[i] != min2) {
+                min2 = array[i];
+            }
+        }
+        document.write("2nd Lowest Number = " +min2);
+    </script>
+</body>
+</html>

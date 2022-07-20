@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second largest number</title>
+</head>
+<body>
+
+
+    <script>
+        var array =[203,15,69,122,50,99];
+        var max_1 = 0;
+        var max_2 = 0;
+
+        for (var i=0; i<array.length; i++)
+        {
+            if (array[i] > max_1){
+            max_2 = max_1;
+            max_1 = array[i];
+            } else if (array[i] > max_2 && array[i] != max_2) {
+            max_2 = array[i];
+            }
+        }
+        document.write("2nd Max = " +max_2);
+    </script>
+</body>
+</html>

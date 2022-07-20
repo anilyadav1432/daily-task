@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String methods</title>
+</head>
+<body>
+    <h2>The slice() Method</h2>
+    <p>slice() extracts a part of a string and returns the extracted part</p>
+    <p id="demo1"></p>
+
+
+    <script>
+        // slice string method
+        let text = " Hello Slice!";
+        let text1="concat";
+        let result = text.slice(0, 5);
+        document.getElementById("demo1").innerHTML = result;
+        // concat string method
+        let result1=text.concat(text1);
+        document.write("<br/>Concat result = "+result1);
+        //indexOf String method
+        let result2=text.charAt(0);
+        document.write("<br/>indexOf result = "+result2);
+        //replace String method
+        let result3=text.replace("Slice","Anil");
+        document.write("<br/>replace result = "+result3);
+        //split String method
+        let result4=text.split(" ");
+        document.write("<br/>split result = "+result4);
+        //substring String method
+        let result5=text.substring(1, 4);
+        document.write("<br/>substring result = "+result5);
+        //toString String method
+        let result6=text.toString();
+        document.write("<br/>toString result = "+result6);
+        //trim String method
+        let result7=text.trim();
+        document.write("<br/>trim result = "+result7);
+        //includes String method
+        let result8=text.includes('Slice');
+        document.write("<br/>includes result = "+result8);
+
+
+    </script>
+</body>
+</html>

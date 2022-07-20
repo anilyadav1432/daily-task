@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onsubmit</title>
+</head>
+<body>
+    <h2>onsubmit</h2>
+    <form onsubmit="confirmInput()" action="https://www.sarkariresult.com/">
+        Enter your name: <input id="name1" type="text">
+        <input type="submit">
+    </form>
+
+
+
+    <script>
+        function confirmInput() {
+            name1 = document.forms[0].name1.value;
+            alert("Hello " + name1 + "You want to redirected on www.sarkariresult.com");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body
+        {
+            background-color: black;
+        }
+        .outer
+        {
+            height: auto;
+            width: 1000px;
+            background-color: cornflowerblue;
+            margin:auto;
+        }
+        h1
+        {
+            text-align: center;
+            color: white;
+        }
+        table
+        {
+            margin: auto;
+            height: 400px;
+            width: 1000px;
+            font-size: 22px;
+            background-color: thistle;
+            padding: 10px 10px 10px 10px;
+            box-shadow:5px 5px 10px skyblue;
+            border-radius: 15px;
+        }
+        table tr input
+        {
+            height: 35px;
+            width: 300px;
+        }
+        table tr:last-child
+        {
+            text-align: center;
+            height: 50px;
+        }
+        button
+        {
+            height: 40px;
+            width: 200px;
+            background-color:rgb(35, 116, 148);
+            font-size: 22px;
+            color:white;
+        }
+        span
+        {
+            color:red;
+        }

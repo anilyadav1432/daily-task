@@ -1,0 +1,96 @@
+.outerDiv
+        {
+            height:auto;
+            width:90%;
+            margin: auto;
+            
+            /* background-color: aquamarine; */
+        }
+        #h1_first
+        {
+            margin:auto;
+            border-bottom: 3px solid rgb(14, 5, 5);
+            padding: 10px 10px 10px 10px;
+            text-align: center;
+        }
+        .amountDiv
+        {
+          font-size: 27px;
+          width:300px;
+          color:black;
+          border-radius: 5px;
+          box-shadow: 3px 3px 7px grey;
+        }
+        .btnDiv
+        {
+            height: 100px;
+            width:100%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 10px;
+            justify-content: space-around;
+        }
+        .btnDiv button
+        {
+            height: 70px;
+            width:19%;
+            background-color: blue;
+            color:white;
+            font-size: 25px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 8px rgb(224, 100, 121);
+        
+        }
+        .btnDiv button:hover
+        {
+            height: 70px;
+            width:19%;
+            background-color: rgb(116, 80, 4);
+            color:white;
+            font-size: 25px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 8px rgb(224, 100, 121);
+        
+        }
+        .cardDiv
+        {
+            height: auto;
+            width:100%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 10px;
+            justify-content: space-around;
+            
+        }
+        .boxDiv
+        {
+            height: 350px;
+            width:32%;
+            border:1px solid;
+            font-size: 20px;
+            color:rgb(17, 15, 15);
+            background-color: rgb(235, 101, 101);
+            border-radius: 20px;
+        }
+        .imgDiv
+        {
+            height:300px;
+            width:100%;
+            background-size: cover;
+            overflow: hidden;
+            border-radius: 20px;
+            /* background-color: cadetblue; */
+        }
+        .contentDiv
+        {
+            height: 50px;
+            width:100%;
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 10px;
+            justify-content: space-around;
+            
+        }
+        

@@ -1,0 +1,59 @@
+body
+        {
+            background-color: blueviolet;
+        }
+        .outerDiv
+        {
+            margin:auto;
+            background-color: aqua;
+            height: 500px;
+            border-radius: 20px;
+            width: 700px;
+            box-shadow: 5px 5px 15px white;
+        }
+        .outerDiv h1
+        {
+            text-align: center;
+            border-bottom: 2px solid red;
+        }
+        form
+        {
+            margin: auto;
+            text-align: left;
+        }
+        table
+        {
+            border-collapse: separate;
+            margin: auto;
+        }
+        table td .inputBox
+        {
+            width: 500px;
+            height:40px;
+            font-size: 20px;
+            border-radius: 10px;
+        }
+        table td button
+        {
+            width: 120px;
+            height:40px;
+            font-size: 22px;
+            background-color: green;
+            color: white;
+            border-radius: 7px;
+        }
+        table th label
+        {
+            font-size: 23px;
+        }
+        
+        table .checkId input
+        {
+            height: 20px;
+            width:30px;
+            margin-left: 10px;
+        }
+        span
+        {
+            color:red;
+        }

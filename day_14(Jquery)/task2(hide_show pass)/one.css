@@ -1,0 +1,30 @@
+    .outer
+        {
+            height: 300px;
+            width: 500px;
+            margin: auto;
+            background-color: plum; 
+            border-radius: 15px;
+        }
+        .outer div
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+        }
+        h1
+        {
+            color:black;
+            text-align: center;
+        }
+        .outer div input:nth-child(1)
+        {
+            height:30px;
+            width: 200px;
+        }
+        .outer div input:nth-child(2)
+        {
+            height:30px;
+            width: 30px;
+            box-shadow: 2px 2px 5px rgb(41, 123, 155);
+        }

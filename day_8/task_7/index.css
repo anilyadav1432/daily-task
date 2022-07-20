@@ -1,0 +1,318 @@
+*{
+    margin:0;
+    padding:0;
+ }
+
+
+ /* Top Buttons code */
+#topNav
+{
+    height:30px;
+    width:100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    /* background-color: lightgray; */
+    
+}
+#buttonNav
+{
+    margin-right: 230px;
+    display: flex;
+    align-items:center;
+    gap:0px;
+}
+#buttonNav button
+{
+    padding: 3px 8px 3px 8px;
+    border:none;
+}
+#btn1
+{
+    background-color: rgb(37, 37, 153) ;
+    color:white;
+    font-size:15px;
+}
+#btn2
+{
+    background-color: skyblue ;
+    color:white;
+    font-size:15px;
+}
+
+/* Header Navbar start CSS */
+#headerDiv
+{
+    height:60px;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+    padding-bottom:20px;
+}
+
+#logoImg
+{
+    height:60px;
+    width:130px;
+    min-width: 100px;
+    margin-top:10px;
+}
+#navDiv
+{
+    display: block;
+    margin-left:280px;
+}
+
+a
+{
+    margin-left: 20px;
+    color:black;
+    text-decoration:none;
+}
+#searchButton
+{
+margin-left:20px;
+padding: 2px;
+background: transparent;
+
+}
+#searchButton img{
+height:15px;
+
+width:15px;
+}
+
+#hamburger
+{
+display:none;
+margin-right: 20px;
+}
+
+/* Slider Code CSS */
+#sliderImg
+{
+    height:350px;
+    width:100%;
+    background-image: url("sliderImg.png");
+    text-align: center;
+    color:white;
+}
+#sliderImg h1
+{
+    padding: 70px 10px 0px 10px;
+}
+
+/* Card Css Here */
+#cardDiv
+{
+    padding-top: 1px;
+    display: flex;
+    height:370px;
+    width:100%;
+    color:blue;
+    margin-bottom: 10px;
+    flex-direction:row;
+}
+#cardBox
+{
+    height:370px;
+    width:25%;
+    font-size:19px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+#cardDiv img{
+    height:340px;
+    width:99%;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+/* footer code */
+#stickyBox
+{
+    
+    position: sticky;
+    bottom: 0;
+}
+#footerDiv
+{
+    height:100px;
+    width:100%;
+    margin-bottom: 0px;
+    align-items: center;
+    display: flex;
+    background: darkblue;
+}
+#footerDiv p
+{
+    padding-left:10px;
+    color:white;
+    font-size: 15px;
+   
+}
+#footerDiv img
+{
+    padding-right: 10px;
+    height:30px;
+    width:30px;
+}
+/* For Tablet View CSS*/
+@media screen and (max-width:897px) {
+   
+    #topNav
+    {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: row;
+        
+        /* background-color: lightgray; */   
+    }
+    #buttonNav
+    {
+        width:100%;
+        margin-right: 0px;
+    }
+    #btn1
+    {
+        width:35%;
+    }
+    #btn2
+    {
+        width:30%;
+        
+    }
+
+     /* Header Navbar start CSS */
+
+    #logoImg
+    {
+        height:60px;
+        width:130px;
+        min-width: 100px;
+        margin-top:10px;
+        margin-left: 30px;
+    }
+    #navDiv
+    {
+        display: block;
+        margin-left:200px;
+    }
+
+    a
+    {
+        display:none;
+    }
+    #hamburger
+    {
+        display: inline;
+        height:20px;
+        width: 20px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+
+    /* Card Css Here */
+    #cardDiv
+    {
+        height:390px;
+        padding-top: 1px;
+        display: flex;
+        flex-wrap:wrap;
+        color:blue;
+        margin-bottom: 10px;
+        
+    }
+
+    #cardBox
+    {
+        width:50%;
+        font-size:19px;
+        height:185px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    #cardDiv img{
+    height:170px;
+    width:99%;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+}
+
+     /* For Mobile View */
+    @media screen and (max-width:470px) {
+   
+        #logoImg
+    {
+        height:60px;
+        width:130px;
+        min-width: 100px;
+        margin-top:10px;
+        margin-left: 20px;
+    }
+    #navDiv
+    {
+        display: block;
+        margin-left:40px;
+    }
+
+    a
+    {
+        display:none;
+    }
+    #hamburger
+    {
+        display: inline;
+        height:20px;
+        width: 20px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+.sliderImg h1
+{
+    font-size: 15px;
+}
+
+        /* Card Css Here */
+        #cardDiv
+        {
+            height:390px;
+            padding-top: 1px;
+            display: flex;
+            color:blue;
+            margin-bottom: 10px;
+            
+        }
+
+        #cardBox
+        {
+            width:100%;
+            font-size:19px;
+            height:90px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+
+        #cardDiv img{
+        height:70px;
+        width:99%;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+    }
+    
+}

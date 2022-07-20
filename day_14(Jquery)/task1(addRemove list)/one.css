@@ -1,0 +1,46 @@
+.outer
+        {
+            height:auto;
+            width: 500px;
+            background-color: cadetblue;
+            margin: auto;
+            justify-content: center;
+            box-shadow: 3px 3px 5px black;
+        }
+        h1
+        {
+            text-align: center;
+        }
+        .listDiv
+        {
+            height:auto;
+            width: 400px;
+            /* background-color: rgb(3, 180, 107); */
+            margin: auto;
+            font-size: 22px;
+            padding: 5px 5px 5px 5px;
+            color:white;
+        }
+        #footerDiv
+        {
+            display: flex;
+            justify-content: space-around;
+            background-color: lightgrey;
+        }
+        #footerDiv div input:nth-child(1)
+        {
+            
+            font-size: 19px;
+            width:200px;
+            box-shadow: 3px 3px 5px rgb(3, 180, 107);
+            border-radius:10px;
+        }
+
+        #footerDiv button
+        {
+            background-color: rgb(25, 171, 216);
+            color:white;
+            font-size: 22px;
+            width:150px;
+            border-radius:10px;
+        }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Sort</title>
+</head>
+<body>
+    
+
+    <script>
+        function selectionSort(arrVal) { 
+            let n = arrVal.length;
+                
+            for(let i = 0; i < n; i++) {
+                // Finding the smallest number in the subarray
+                let min = i;
+                for(let j = i+1; j < n; j++){
+                    if(arrVal[j] < arrVal[min]) {
+                        min=j; 
+                    }
+                }
+                if (min != i) {
+                    // Swapping the elements
+                    let tmp = arrVal[i]; 
+                    arrVal[i] = arrVal[min];
+                    arrVal[min] = tmp;      
+                }
+            }
+            return arrVal;
+        }
+
+        let arrVal = [5, 2, 4, 6, 1, 3];
+        document.write("Before Sort : "+arrVal);
+        let newArr=selectionSort(arrVal);
+        document.write("<br/>After Sort : "+newArr);
+        
+
+    </script>
+</body>
+</html>

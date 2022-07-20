@@ -1,0 +1,17 @@
+.mainDiv
+        {
+            min-height: 350px;
+            max-width:600px;
+            margin: auto;
+            background-color: rgb(95, 117, 14);
+            color:white;
+            text-align: center;
+            box-shadow: 10px 10px 25px grey;
+        }
+        h2
+        {
+            text-align:center;
+            width: 600px;
+            /* overflow: hidden; */
+            word-break: break-all; 
+        }

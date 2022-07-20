@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(236, 150, 179);
+}
+.AllButton
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightseagreen;
+    box-shadow: 5px 5px 15px rgb(253, 17, 29);
+    align-items: center;
+    height:70px
+}
+.AllButton button
+{
+    background-color: mediumslateblue;
+    color:white;
+    height:50px;
+    width:250px;
+    font-size: 22px;
+    box-shadow: 3px 3px 10px white;
+    border-radius: 10px;
+}
+#tblDiv
+{
+    display: flex;
+    margin-top: 10px;
+    width:100%;   
+    
+    
+}
+#tblDiv #tbl1
+{
+    width:100%;
+    padding: 10px;
+    text-align: center;
+    border-collapse: collapse;
+}
+.listAddMovie
+{
+    display: flex;
+    margin-top: 10px;
+    width:100%;   
+    
+}
+#listAddMovie #tbl2
+{
+    width:100%;
+    padding: 10px;
+    text-align: center;
+    border-collapse: collapse;
+}
+.listAddMovie
+{
+    display: flex;
+    margin-top: 10px;
+    width:100%;   
+    
+}
+#listDelMovie #tbl3
+{
+    width:100%;
+    padding: 10px;
+    text-align: center;
+    border-collapse: collapse;
+}
+#addForm table{
+    height:300px;
+    margin:auto;
+}
+#delForm
+{
+    margin: 10px 0px 10px;
+}
+#searchlistMovie
+{
+    width:100%;
+    padding: 10px;
+    text-align: center;
+}
+#searchlistMovie #tbl4
+{
+    margin:auto;
+}
+#searchlistMovie #tbl5
+{
+    margin:auto;
+    width: 100%;
+    
+}
+div table
+{
+    margin:auto;
+}
+div table input
+{
+    height:35px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px white;
+}
+div table button
+{
+    height:35px;
+    width: 170px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: seagreen;
+}

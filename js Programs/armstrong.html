@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armstrong</title>
+</head>
+<body>
+    <script>
+        var n=153;
+        var temp=n;
+        var s=0;
+        while(n>0)
+        {
+            var r=parseInt(n%10);
+            s=parseInt(s)+parseInt(r*r*r);
+            n=parseInt(n/10);
+        }
+        if(temp==s)
+        {
+            document.write(temp+' is armstrong number');
+        }
+        else{
+            document.write(temp+' is not armstrong number');
+        }
+    </script>
+</body>
+</html>

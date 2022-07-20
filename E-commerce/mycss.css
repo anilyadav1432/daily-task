@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #a1d6ee;
+}
+.head1{
+    text-align: center;
+    color: rgb(5, 3, 3);
+}
+button {
+    text-align: center;
+    width:210px;
+    cursor: pointer;
+    position:relative;
+    overflow:hidden;
+    font-size: 20px;
+    padding: 10px 40px;
+    border: 1px solid rgb(39, 37, 37);
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px black;
+  
+  }
+.tolaprice{
+    width:300px;
+    border-radius: 10px;
+    color: rgb(8, 5, 5);
+    font-size: 30px;
+    margin: 20px 0;
+    box-shadow:3px 3px 5px black;
+}
+.tolaprice span{
+    color: rgb(7, 7, 8);
+}
+.productbtn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row{
+    display: flex;
+    padding: 5px 5px 5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+#Cards{
+color: #fff;
+/* padding: 10px; */
+border-radius: 10px;
+background-color: rgba(250, 73, 41, 0.897);
+box-shadow: 5px 5px 10px grey;
+transition: 0.3s;
+}
+#Cards img{
+     width: 400px;
+     border-radius: 10px;
+     height: 300px;
+}
+#Cards p{
+    padding: 10px;
+    font-size: 19px;;
+}
+.bottomPart{
+    display: flex;
+   justify-content: space-between;
+}
+.bottomPart p{
+    padding:15px;
+    font-size: 19px;
+}
+.changeColor{
+    background: rgb(10, 165, 165);
+}
+

@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1
+{
+    text-align: center;
+    color: teal;
+    padding: 15px 0px;
+    font-size: 40px;
+}
+#btn
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.item
+{
+    flex: 18%;
+    height: 50px;
+    background-color: teal;
+    font-size: 25px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+}
+#show{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   margin: 20px;
+ 
+}
+.child{
+    padding: 10px;
+    text-align: center;
+    flex: 25%;
+    background-color: rgb(229, 243, 243);
+}
+.child img{
+ height: 250px;
+ width: 100%;
+ object-fit: contain;
+}
+h3{
+    padding: 10px 0px;
+}
+.total
+{
+    height:50px;
+    width: auto;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px 50px;
+    border: none;
+    background-color: rgb(196, 214, 214);
+}

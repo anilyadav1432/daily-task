@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Search</title>
+</head>
+<body>
+    
+
+    <script>
+        document.write(`<input type="number" id="inpVal"><button type="button" onclick="searchVal()">Search</button>`);
+        var arrSearch=[21,54,22,76,43,65];
+        function searchVal()
+        {
+            var check=0;
+            var a=document.getElementById("inpVal").value;
+            for(i=1;i<arrSearch.length;i++)
+            {
+                if(arrSearch[i]==a)
+                {
+                    alert(`${a} Number is available on ${i} index`);
+                    check = 1;
+                }
+            }
+            if(check == 0)
+            {
+                alert("number is not Available in array");
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+
+li{
+    list-style-image: url("bullet.png");
+    /* height:18px; */
+    line-height: 30px;
+}
+.tbl_class
+{
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 15px;
+    width:1300px;
+    border:1px dark;
+    
+}
+tr{
+    border:1px dark;
+    border-spacing: 20px;
+    text-align: left;
+    border-radius: 10px;
+    
+}
+
+
+.tbl_class tr:nth-child(even)
+{background-color: #c7e1e2;}
+.tbl_class tr:nth-child(odd)
+{background-color: #e3efef;}
+.tbl_class .tr1
+{
+    background-color: #659fbc !important;
+    font-family: Sans-serif;
+    color:white;
+    border-radius: 10px;
+    border-bottom: 4px inset black;
+    font-size:20px;
+}
+.inputclr:focus
+{
+background-color: gray;
+}
+.inputclr
+{
+    outline: 2px solid black;
+}
+
+.btn
+{
+    
+    text-align: right;
+    width:90%;;
+}
+.btnbg
+{
+    padding: 5px;
+    border-radius: 5px;
+    font-size:17px;
+    background-color: green;
+    color:white;
+}
+.btnbg:hover
+{
+    padding: 5px;
+    border-radius: 5px;
+    font-size:17px;
+    background-color: white;
+    color:black;
+}
+.fieldcss
+{   
+    width:30%;
+}
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Method</title>
+</head>
+<body>
+    
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <script>
+        // array pop method
+        const fruits1 = ["Banana", "Orange", "Apple", "Mango"];
+        const fruits2=fruits1.pop()
+        document.write("pop function result = "+fruits2);
+        document.write("<br/>pop function result = "+fruits1);
+        // array push method
+        const fruits3 = ["Banana", "Orange", "Apple", "Mango"];
+        const fruits4=fruits1.push()
+        document.write("<br/>push function result = "+fruits2);
+        document.write("<br/>push function result = "+fruits1);
+        // array reverse method
+        const fruits5 = ["Banana", "Orange", "Apple", "Mango"];
+        const fruits6=fruits5.reverse()
+        document.write("<br/>reverse function result = "+fruits6);
+        // map reverse method
+        const numbers = [4, 9, 16, 25];
+        const result = numbers.map(Math.sqrt);
+        document.write("<br/>map function result = "+result);
+        // sort reverse method
+        const result1 = fruits1.sort();
+        document.write("<br/>sort function result = "+result1);
+
+        // filter reverse method
+        const result3=numbers.filter(checkAdult);
+        document.write("<br/>filter function result = "+result3);
+        function checkAdult(age) {
+            return age >= 18;
+        }
+    </script>
+</body>
+</html>
